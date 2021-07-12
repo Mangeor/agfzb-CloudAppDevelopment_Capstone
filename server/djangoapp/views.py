@@ -32,7 +32,7 @@ def contact(request):
 
 # Create a `login_request` view to handle sign in request
 def login_request(request):
-context = {}
+    context = {}
     if request.method == "POST":
         username = request.POST['username']
         password = request.POST['password']
